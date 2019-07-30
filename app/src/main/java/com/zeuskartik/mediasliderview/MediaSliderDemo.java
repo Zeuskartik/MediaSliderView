@@ -15,6 +15,7 @@ public class MediaSliderDemo extends MediaSliderActivity {
         list.add("https://www.geeky-gadgets.com/wp-content/uploads/2010/06/android-robot1.jpg");
         list.add("https://i.pinimg.com/originals/3c/6a/31/3c6a31446efcef86b2bb9a639685e066.jpg");
         list.add("https://cdn-image.hipwee.com/wp-content/uploads/2016/03/1458720476319-451x422.jpg");
+        list.add("https://res.cloudinary.com/vivek5057/image/upload/v1564495315/hello.png")
         loadMediaSliderView(list,"image",true,true,false,"Media-Slider","#000000",null);
     }
 }
