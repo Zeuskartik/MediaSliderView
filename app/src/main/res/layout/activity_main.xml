@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/transparentWhite"
+    android:background="#000"
     tools:context=".MainActivity">
 
     <TextView
@@ -19,7 +19,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:background="@color/transparent"
+        android:background="@color/transparentWhite"
         android:padding="10dp"
         android:textColor="#ffffff"
         />
@@ -35,7 +35,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/launch_image"
-        android:background="@color/transparent"
+        android:background="@color/transparentWhite"
         android:padding="10dp"
         android:textColor="#ffffff"
         />
