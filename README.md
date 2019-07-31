@@ -21,7 +21,7 @@ MediaSliderView is a compact library for having a slideable/swipeable gallery vi
 -Progress indicators for resource load progress.       
 -Title for gallery view.    
 -Navigation buttons on either sides to navigate through the gallery smoothly.    
--Resource count(current/total).
+-Resource count view(current/total).
 
 
 
@@ -47,9 +47,17 @@ dependencies {
    implementation 'com.github.Zeuskartik:MediaSliderView:Tag' //eg.- implementation 'com.github.Zeuskartik:MediaSliderView:1.0'
 }
 
-```         
+```    
 
-3). Create a new java class in your app/src/main/java/<com.yourpackagename> folder and extend 'MediaSliderActivity'.
+5). Add the necessary permissions in your manifest.xml as follows -      
+a. Internet (when using Url's)     
+```  
+<uses-permission android:name="android.permission.INTERNET" />   
+
+```
+
+
+4). Create a new java class in your app/src/main/java/<com.yourpackagename> folder and extend 'MediaSliderActivity'.
 
 ```
 public class SliderDemo extends MediaSliderActivity {
@@ -58,10 +66,10 @@ public class SliderDemo extends MediaSliderActivity {
 }
 ```   
 
-4). Add this new class inside your manifest.xml (since this class extends an activity now), by clicking alt+enter and selecting 'Add activity to manifest'.
+5). Add this new class inside your manifest.xml (since this class extends an activity now), by clicking alt+enter and selecting 'Add activity to manifest'.
 
 
-5). Override the 'onCreate' method inside this java class.
+6). Override the 'onCreate' method inside this java class.
 
 ```
 public class SliderDemo extends MediaSliderActivity {
