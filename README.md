@@ -143,7 +143,13 @@ public class SliderDemo extends MediaSliderActivity {
 ```           
 
 **And it's done.**      
-Fire an intent from some other activity onto this class and your gallery shall load the resources you provided.
+Fire an intent from some other activity onto this class and your gallery shall load the resources you provided.     
+
+## Contributions and Support
+
+Contributions are welcome. Create a new pull request in order to submit your fixes and they shall be merged after moderation. In case of any issues, bugs or any suggestions, either create a new issue or post comments in already active relevant issues. Please
+
+
 
 ## License
 
