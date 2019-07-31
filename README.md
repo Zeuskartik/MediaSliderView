@@ -17,7 +17,7 @@ MediaSliderView is a compact library for having a slideable/swipeable gallery vi
 -Fast and efficient image loading with Glide.       
 -Exoplyer support for playing videos inside the gallery.       
 -Supports Url's as well as local file paths.      
-(Note: android Uri's are not supported, only absolute file paths can be used).      
+ (Note: android Uri's are not supported, only absolute file paths can be used).      
 -Progress indicators for resource load progress.       
 -Title for gallery view.    
 -Navigation buttons on either sides to navigate through the gallery smoothly.    
@@ -55,6 +55,11 @@ dependencies {
 i. Internet (when using Url's)     
 ```
 <uses-permission android:name="android.permission.INTERNET" />   
+```     
+
+ii. Read External Storage (when using filepaths)
+```
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 ```
 
 
