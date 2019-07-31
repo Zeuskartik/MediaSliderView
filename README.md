@@ -35,12 +35,12 @@ As of now, for videos only **.mp4** file format is supported and for images **.j
 
 Image Gallery -      
 
-![vid_ss](https://res.cloudinary.com/kartiksaraf/image/upload/c_scale,w_200/v1564571701/github_MediaSliderView/screenshots/ezgif.com-video-to-gif_wuuney.gif)    
+![image_gif](https://res.cloudinary.com/kartiksaraf/image/upload/c_scale,w_300/v1564572902/github_MediaSliderView/screenshots/phone_image_ebu0n3.gif)    
 
 
 Image in gallery -   
 
-![vid_ss](https://res.cloudinary.com/kartiksaraf/image/upload/c_scale,w_200/v1564572325/github_MediaSliderView/screenshots/1564571252993_lb5ajs.jpg)    
+![img_ss](https://res.cloudinary.com/kartiksaraf/image/upload/c_scale,w_200/v1564572325/github_MediaSliderView/screenshots/1564571252993_lb5ajs.jpg)    
 
 Video in gallery -   
 
