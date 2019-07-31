@@ -122,7 +122,7 @@ public class SliderDemo extends MediaSliderActivity {
 }
 ```           
 
-**And it's done.** 
+**And it's done.**      
 Fire an intent from some other activity onto this class and your gallery shall load the resources you provided.
 
 ## License
