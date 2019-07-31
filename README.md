@@ -3,3 +3,32 @@
 ![Repository Logo](https://res.cloudinary.com/kartiksaraf/image/upload/v1564513200/github_MediaSliderView/Media_Slider_View_jkapxa.png)
 
 # MediaSliderView
+
+## Download & Setup
+Repository available on https://jitpack.io.  
+
+Add the jitpack support to your project-level gradle file.
+
+```Gradle
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+Add the gradle dependency in the build.gradle file.  
+
+Note: Replace Tag with the current version.
+
+```Gradle
+dependencies {
+   implementation 'com.github.Zeuskartik:MediaSliderView:Tag' //eg.- implementation 'com.github.Zeuskartik:MediaSliderView:1.0'
+}
+
+```
+
+
+## License
+
+MediaSliderView is available under the Apache 2.0 License. See the LICENSE file for more info.
