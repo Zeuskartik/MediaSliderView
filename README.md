@@ -92,11 +92,16 @@ public class SliderDemo extends MediaSliderActivity {
 
 The loadMediaSliderView() method takes the foolowing arguemnts-    
 
-| Parameter        | Type           | Value  | Inference |
-| ------------- |:-------------:| -----:|
-| mediaUrlList      | `ArrayList<String>` |   |An arraylist containing either Url's or localfilepaths or a combination of both for a given media type  (i.e. image or video) in string format|
-| mediaType      | `String`      |   "image"/"video" | Type of media the gallery will host, either images or videos.|
-| isTitleVisible | 'boolean`      | true/false | Specifies whether the title of the gallery will be rendered or not.|
+| Parameter            | Type              | Value           | Inference                                                                                                                                                        |
+|----------------------|-------------------|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| mediaUrlList         | ArrayList<String> |                 | An Arraylist of String type containing  either URL's or local filepaths  or a combination of both  for a given media type(i.e.image or video)  in string format. |
+| mediaType            | String            | "image"/"video" | Type of media the gallery will host,  either images or videos.                                                                                                   |
+| isTitleVisible       | boolean           | true/false      | Specifies whether the title of the gallery  will be visible or not.                                                                                              |
+| isMediaCountVisible  | boolean           | true/false      | Specifies whether the item count of the  gallery will be visible or not.                                                                                         |
+| isNavigationVisible  | boolean           | true/false      | Specifies whether the left and right  navigation buttons will be visible or not.                                                                                 |
+| title                | String            |                 | Title of the slider gallery view.                                                                                                                                |
+| titleBackgroundColor | String            | Eg.-"#ffffff"   | Backgroundcolor of the title bar for the gallery. It only accepts hexadecimal color strings.                                                                     |
+| titleTextColor       | String            | Eg.-"#000000"   | Text color of the gallery title. It only accepts hexadecimal color strings.                                                                                      |
 
 
 ## License
