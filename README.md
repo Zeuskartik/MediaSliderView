@@ -52,8 +52,9 @@ dependencies {
 
 3). Add the necessary permissions in your manifest.xml as follows - 
 
-a. Internet (when using Url's)     
-```<uses-permission android:name="android.permission.INTERNET" />   
+i. Internet (when using Url's)     
+```
+<uses-permission android:name="android.permission.INTERNET" />   
 ```
 
 
