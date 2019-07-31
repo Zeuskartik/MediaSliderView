@@ -44,7 +44,7 @@ Image in gallery -
 
 Video in gallery -   
 
-![vid_ss](https://res.cloudinary.com/kartiksaraf/image/upload/c_scale,w_200/v1564571495/github_MediaSliderView/screenshots/1564571252982_phc5wh.jpg) 
+![vid_ss](https://res.cloudinary.com/kartiksaraf/image/upload/c_scale,w_200/v1564572561/github_MediaSliderView/screenshots/video_item_jbgnkz.png) 
 
 
 
