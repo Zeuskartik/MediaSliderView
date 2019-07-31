@@ -1,6 +1,6 @@
 language: android
 sudo: required
-jdk: oraclejdk8
+jdk: oraclejdk9
 
 env:
   global:
@@ -39,4 +39,4 @@ before_script:
 
 script:
   - ./gradlew clean build
-  - ./gradlew test 
+  - ./gradlew test
