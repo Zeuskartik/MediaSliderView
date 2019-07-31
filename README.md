@@ -98,7 +98,7 @@ public class SliderDemo extends MediaSliderActivity {
 
 7). Inside 'onCreate' call loadMediaSliderView() method of the 'MediaSliderActivity'    
 
-The loadMediaSliderView() method takes the foolowing arguemnts-    
+The loadMediaSliderView() method takes the following arguemnts-    
 
 | Parameter            | Type              | Value           | Inference                                                                                                                                                        |
 |----------------------|-------------------|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
