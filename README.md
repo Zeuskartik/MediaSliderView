@@ -40,7 +40,8 @@ Image Gallery -
 
 Video Gallery -      
 
-![video_gif](https://res.cloudinary.com/kartiksaraf/image/upload/c_scale,w_300/v1564573194/github_MediaSliderView/screenshots/phone_video_lv3nej.gi)    
+![video_gif](https://res.cloudinary.com/kartiksaraf/image/upload/c_scale,w_300/v1564573194/github_MediaSliderView/screenshots/phone_video_lv3nej.gif
+)    
 
 
 
