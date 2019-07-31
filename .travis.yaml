@@ -1,5 +1,4 @@
 language: android
-
 android:
   components:
     - tools
