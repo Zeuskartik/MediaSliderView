@@ -110,7 +110,19 @@ The loadMediaSliderView() method takes the following arguemnts-
 | title                | String            |                 | Title of the slider gallery view.                                                                                                                                |
 | titleBackgroundColor | String            | Eg.-"#ffffff"   | Backgroundcolor of the title bar for the gallery. It only accepts hexadecimal color strings.                                                                     |
 | titleTextColor       | String            | Eg.-"#000000"   | Text color of the gallery title. It only accepts hexadecimal color strings.                                                                                      |
+       
+       
+```
+public class SliderDemo extends MediaSliderActivity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        loadMediaSliderView(list,"image",true,true,false,"Image-Slider","#000000",null); 
+    }
+}
+```           
 
+And it's done.Fire an intent from some other activity onto this class and your gallery shall load the resources you provided.
 
 ## License
 
