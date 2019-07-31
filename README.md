@@ -110,7 +110,11 @@ The loadMediaSliderView() method takes the following arguemnts-
 | title                | String            |                 | Title of the slider gallery view.                                                                                                                                |
 | titleBackgroundColor | String            | Eg.-"#ffffff"   | Backgroundcolor of the title bar for the gallery. It only accepts hexadecimal color strings.                                                                     |
 | titleTextColor       | String            | Eg.-"#000000"   | Text color of the gallery title. It only accepts hexadecimal color strings.                                                                                      |
-       
+ 
+ 
+ Usage-  
+ 
+ 
        
 ```
 public class SliderDemo extends MediaSliderActivity {
