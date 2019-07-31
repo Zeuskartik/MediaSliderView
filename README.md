@@ -7,4 +7,4 @@
 
 ## License
 
-TouchImageView is available under the Apache 2.0 License. See the LICENSE file for more info.
+MediaSliderView is available under the Apache 2.0 License. See the LICENSE file for more info.
