@@ -11,6 +11,20 @@ Sliding Gallery View with support for images and videos, for android application
 
 MediaSliderView is a compact library for having a slideable/swipeable gallery view inside your android application, which supports both images and videos. MediaSliderView uses Glide (https://github.com/bumptech/glide) for images and exoplayer (https://github.com/google/ExoPlayer) for videos, under the hood, to render images and videos inside customviews which are handled by a viewpager to render a swipeable gallery with on demand view creation, updation and destruction. The libraray itself is highly customizable and the images in the gallery support pinch, zoom and panning capabilities and play/pause/restart support for videos.
 
+##What's Included ?    
+
+-Swipe left and right to navigate the gallery.      
+-Fast and efficient image loading with Glide.       
+-Exoplyer support for playing videos inside the gallery.       
+-Supports Url's as well as local file paths.      
+(Note: android Uri's are not supported, only absolute file paths can be used).      
+-Progress indicators for resource load progress.       
+-Title for gallery view.    
+-Navigation buttons on either sides to navigate through the gallery smoothly.    
+-Resource count(current/total).
+
+
+
 ## Download & Setup
 Repository available on https://jitpack.io.  
 
