@@ -28,7 +28,7 @@ MediaSliderView is a compact library for having a slideable/swipeable gallery vi
 ## Download & Setup
 Repository available on https://jitpack.io.  
 
-1).Add the jitpack support to your project-level gradle file.
+1). Add the jitpack support to your project-level gradle file.
 
 ```Gradle
 allprojects {
@@ -38,7 +38,7 @@ allprojects {
     }
 }
 ```
-2).Add the gradle dependency in the build.gradle file.  
+2). Add the gradle dependency in the build.gradle file.  
 
 Note: Replace Tag with the current version.
 
@@ -51,10 +51,12 @@ dependencies {
 
 3).Create a new java class in your app/src/main/java/<com.yourpackagename> folder and extend 'MediaSliderActivity'.
 
-```public class ImageSliderDemo extends MediaSliderActivity {
+```
+public class ImageSliderDemo extends MediaSliderActivity {
 .....
-    }
-    ```
+}
+```     
+    
 
 
 ## License
