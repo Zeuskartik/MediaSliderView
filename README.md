@@ -4,7 +4,7 @@
 
 # MediaSliderView     
 
-Sliding Gallery View with support for images and videos, for android applications.
+Sliding Gallery View with support for images and videos, for android applications (Androidx support enabled).
 
 
 ## Capabilities and Functionalities
