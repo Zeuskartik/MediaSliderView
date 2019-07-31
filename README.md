@@ -19,7 +19,7 @@ allprojects {
 ```
 Add the gradle dependency in the build.gradle file.  
 
-Note: Replace Tag with current version.
+Note: Replace Tag with the current version.
 
 ```Gradle
 dependencies {
