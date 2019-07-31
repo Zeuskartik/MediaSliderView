@@ -4,6 +4,25 @@
 
 # MediaSliderView
 
+## Download 
+Repository available on https://jitpack.io
+
+```Gradle
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+Replace Tag with current version
+```Gradle
+dependencies {
+   implementation 'com.github.Zeuskartik:MediaSliderView:Tag' 
+}
+
+```
+
 
 ## License
 
