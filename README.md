@@ -50,17 +50,18 @@ dependencies {
 ```    
 
 
-3). Add the necessary permissions in your manifest.xml as follows - 
+3). Add the necessary permissions (as per your use case), in your manifest.xml as follows - 
 
 i. Internet (when using Url's)     
 ```
 <uses-permission android:name="android.permission.INTERNET" />   
 ```     
 
-ii. Read External Storage (when using filepaths)
+ii. Read External Storage (when using local filepaths)
 ```
 <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-```
+```    
+Note: When using local filepaths, make sure to check permission at runtime to read external storage. Also, Uri's are not supported yet, the user needs to  provide absolute file path to the resource to be loaded.  
 
 
 4). Create a new java class in your app/src/main/java/<com.yourpackagename> folder and extend 'MediaSliderActivity'.
