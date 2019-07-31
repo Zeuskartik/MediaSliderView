@@ -41,7 +41,9 @@ Image and Video Galleries -
 
 Gallery Items -   
 
-![img_ss](https://res.cloudinary.com/kartiksaraf/image/upload/c_scale,w_300/v1564572325/github_MediaSliderView/screenshots/1564571252993_lb5ajs.jpg)     ![vid_ss](https://res.cloudinary.com/kartiksaraf/image/upload/c_scale,w_300/v1564572561/github_MediaSliderView/screenshots/video_item_jbgnkz.png) 
+![img_ss](https://res.cloudinary.com/kartiksaraf/image/upload/c_scale,w_300/v1564572325/github_MediaSliderView/screenshots/1564571252993_lb5ajs.jpg)     ![vid_ss](https://res.cloudinary.com/kartiksaraf/image/upload/c_scale,w_300/v1564572561/github_MediaSliderView/screenshots/video_item_jbgnkz.png)     
+![img_2](https://res.cloudinary.com/kartiksaraf/image/upload/c_scale,w_300/v1564573692/github_MediaSliderView/screenshots/video_2_qqm9ro.jpg) ![img_3](https://res.cloudinary.com/kartiksaraf/image/upload/c_scale,w_300/v1564573692/github_MediaSliderView/screenshots/video_2_qqm9ro.jpg)
+
 
 
 
