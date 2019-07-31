@@ -14,15 +14,15 @@ MediaSliderView is a compact library for having a slideable/swipeable gallery vi
 
 ## What's Included ?   
 
--Swipe left and right to navigate the gallery.      
--Fast and efficient image loading with Glide.       
--Exoplyer support for playing videos inside the gallery.       
--Supports Url's as well as local file paths.      
+⋅⋅* Swipe left and right to navigate the gallery.      
+⋅⋅* Fast and efficient image loading with Glide.       
+⋅⋅* Exoplyer support for playing videos inside the gallery.       
+⋅⋅* Supports Url's as well as local file paths.      
  (Note: android Uri's are not supported, only absolute file paths can be used).      
--Progress indicators for resource load progress.       
--Title for gallery view.    
--Navigation buttons on either sides to navigate through the gallery smoothly.    
--Resource count view(current/total).
+⋅⋅* Progress indicators for resource load progress.       
+⋅⋅* Title for gallery view.    
+⋅⋅* Navigation buttons on either sides to navigate through the gallery smoothly.    
+⋅⋅* Resource count view(current/total).
 
 
 ## Supported MediaTypes    
