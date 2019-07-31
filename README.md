@@ -40,11 +40,11 @@ Image Gallery -
 
 Image in gallery -   
 
-![img_ss](https://res.cloudinary.com/kartiksaraf/image/upload/c_scale,w_200/v1564572325/github_MediaSliderView/screenshots/1564571252993_lb5ajs.jpg)    
+![img_ss](https://res.cloudinary.com/kartiksaraf/image/upload/c_scale,w_300/v1564572325/github_MediaSliderView/screenshots/1564571252993_lb5ajs.jpg)    
 
 Video in gallery -   
 
-![vid_ss](https://res.cloudinary.com/kartiksaraf/image/upload/c_scale,w_200/v1564572561/github_MediaSliderView/screenshots/video_item_jbgnkz.png) 
+![vid_ss](https://res.cloudinary.com/kartiksaraf/image/upload/c_scale,w_300/v1564572561/github_MediaSliderView/screenshots/video_item_jbgnkz.png) 
 
 
 
