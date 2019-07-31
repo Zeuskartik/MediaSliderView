@@ -94,7 +94,7 @@ The loadMediaSliderView() method takes the foolowing arguemnts-
 
 | Parameter            | Type              | Value           | Inference                                                                                                                                                        |
 |----------------------|-------------------|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| mediaUrlList         | ArrayList<String> |                 | An Arraylist of String type containing  either URL's or local filepaths  or a combination of both  for a given media type(i.e.image or video)  in string format. |
+| mediaUrlList         | ArrayList<String> |                 | An Arraylist of String type containing  either URL's or local filepaths  or a combination of both  for a given media type(i.e. image or video)  in string format. |
 | mediaType            | String            | "image"/"video" | Type of media the gallery will host,  either images or videos.                                                                                                   |
 | isTitleVisible       | boolean           | true/false      | Specifies whether the title of the gallery  will be visible or not.                                                                                              |
 | isMediaCountVisible  | boolean           | true/false      | Specifies whether the item count of the  gallery will be visible or not.                                                                                         |
