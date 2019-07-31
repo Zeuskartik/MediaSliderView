@@ -33,25 +33,15 @@ As of now, for videos only **.mp4** file format is supported and for images **.j
 
 ## Demo and Samples    
 
-Image Gallery -      
+Image and Video Galleries -      
 
-![image_gif](https://res.cloudinary.com/kartiksaraf/image/upload/c_scale,w_300/v1564572902/github_MediaSliderView/screenshots/phone_image_ebu0n3.gif)    Video Gallery -   ![video_gif](https://res.cloudinary.com/kartiksaraf/image/upload/c_scale,w_300/v1564573194/github_MediaSliderView/screenshots/phone_video_lv3nej.gif
+![image_gif](https://res.cloudinary.com/kartiksaraf/image/upload/c_scale,w_300/v1564572902/github_MediaSliderView/screenshots/phone_image_ebu0n3.gif)     ![video_gif](https://res.cloudinary.com/kartiksaraf/image/upload/c_scale,w_300/v1564573194/github_MediaSliderView/screenshots/phone_video_lv3nej.gif
 )          
 
 
-      
+Gallery Items -   
 
-
-
-
-
-Image in gallery -   
-
-![img_ss](https://res.cloudinary.com/kartiksaraf/image/upload/c_scale,w_300/v1564572325/github_MediaSliderView/screenshots/1564571252993_lb5ajs.jpg)    
-
-Video in gallery -   
-
-![vid_ss](https://res.cloudinary.com/kartiksaraf/image/upload/c_scale,w_300/v1564572561/github_MediaSliderView/screenshots/video_item_jbgnkz.png) 
+![img_ss](https://res.cloudinary.com/kartiksaraf/image/upload/c_scale,w_300/v1564572325/github_MediaSliderView/screenshots/1564571252993_lb5ajs.jpg)     ![vid_ss](https://res.cloudinary.com/kartiksaraf/image/upload/c_scale,w_300/v1564572561/github_MediaSliderView/screenshots/video_item_jbgnkz.png) 
 
 
 
