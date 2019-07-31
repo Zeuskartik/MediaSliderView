@@ -3,3 +3,8 @@
 ![Repository Logo](https://res.cloudinary.com/kartiksaraf/image/upload/v1564513200/github_MediaSliderView/Media_Slider_View_jkapxa.png)
 
 # MediaSliderView
+
+
+## License
+
+TouchImageView is available under the Apache 2.0 License. See the LICENSE file for more info.
