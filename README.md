@@ -147,7 +147,7 @@ Fire an intent from some other activity onto this class and your gallery shall l
 
 ## Contributions and Support
 
-Contributions are welcome. Create a new pull request in order to submit your fixes and they shall be merged after moderation. In case of any issues, bugs or any suggestions, either create a new issue or post comments in already active relevant issues. Please
+Contributions are welcome. Create a new pull request in order to submit your fixes and they shall be merged after moderation. In case of any issues, bugs or any suggestions, either create a new issue or post comments in already active relevant issues. Please refer to our Code of Conduct for more information.
 
 
 
