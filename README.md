@@ -35,7 +35,7 @@ As of now, for videos only **.mp4** file format is supported and for images **.j
 
 Video -      
 
-![vid_ss](https://res.cloudinary.com/kartiksaraf/image/upload/v1564571495/github_MediaSliderView/screenshots/1564571252982_phc5wh.jpg)
+![vid_ss](https://res.cloudinary.com/kartiksaraf/image/upload/v1564571701/github_MediaSliderView/screenshots/ezgif.com-video-to-gif_wuuney.gif)
 
 
 
