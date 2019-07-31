@@ -86,7 +86,17 @@ public class SliderDemo extends MediaSliderActivity {
         
     }
 }
-```       
+```    
+
+7). Inside 'onCreate' call loadMediaSliderView() method of the 'MediaSliderActivity'    
+
+The loadMediaSliderView() method takes the foolowing arguemnts-    
+
+| Parameter        | Type           | Value  | Inference |
+| ------------- |:-------------:| -----:|
+| mediaUrlList      | `ArrayList<String>` |   |An arraylist containing either Url's or localfilepaths or a combination of both for a given media type  (i.e. image or video) in string format|
+| mediaType      | `String`      |   "image"/"video" | Type of media the gallery will host, either images or videos.|
+| isTitleVisible | 'boolean`      | true/false | Specifies whether the title of the gallery will be rendered or not.|
 
 
 ## License
