@@ -5,7 +5,7 @@
 # MediaSliderView
 
 ## Download & Setup
-Repository available on https://jitpack.io
+Repository available on https://jitpack.io.  
 Add the jitpack support to your Project-level gradle file.
 ```Gradle
 allprojects {
@@ -15,8 +15,8 @@ allprojects {
     }
 }
 ```
-Add the gradle dependency in the build.gradle file
-Note: Replace Tag with current version
+Add the gradle dependency in the build.gradle file.  
+Note: Replace Tag with current version.
 ```Gradle
 dependencies {
    implementation 'com.github.Zeuskartik:MediaSliderView:Tag' 
