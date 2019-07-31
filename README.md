@@ -56,13 +56,15 @@ public class SliderDemo extends MediaSliderActivity {
 
 
 }
-```    
+```   
+
+4). Add this new class inside your manifest.xml (since this class extends an activity now), by clicking alt+enter and selecting 'Add activity to manifest'.
 
 
 5). Override the 'onCreate' method inside this java class.
 
 ```
-public class ImageSliderDemo extends MediaSliderActivity {
+public class SliderDemo extends MediaSliderActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
