@@ -33,9 +33,9 @@ As of now, for videos only **.mp4** file format is supported and for images **.j
 
 ## Demo and Samples    
 
-Image Gallery -  Video Gallery -    
+Image Gallery -   Video Gallery -    
 
-![image_gif](https://res.cloudinary.com/kartiksaraf/image/upload/c_scale,w_300/v1564572902/github_MediaSliderView/screenshots/phone_image_ebu0n3.gif) ![video_gif](https://res.cloudinary.com/kartiksaraf/image/upload/c_scale,w_300/v1564573194/github_MediaSliderView/screenshots/phone_video_lv3nej.gif
+![image_gif](https://res.cloudinary.com/kartiksaraf/image/upload/c_scale,w_300/v1564572902/github_MediaSliderView/screenshots/phone_image_ebu0n3.gif)   ![video_gif](https://res.cloudinary.com/kartiksaraf/image/upload/c_scale,w_300/v1564573194/github_MediaSliderView/screenshots/phone_video_lv3nej.gif
 )          
 
 
