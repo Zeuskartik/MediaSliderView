@@ -51,8 +51,8 @@ dependencies {
 
 3).Create a new java class in your app/src/main/java/<com.yourpackagename> folder and extend 'MediaSliderActivity'.
 
-```public class SliderDemo extends MediaSliderActivity {
-
+```
+public class SliderDemo extends MediaSliderActivity {
 
 
 }
