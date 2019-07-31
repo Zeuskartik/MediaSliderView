@@ -27,9 +27,9 @@ MediaSliderView is a compact library for having a slideable/swipeable gallery vi
 
 ## Supported MediaTypes    
 
-The gallery, at a given instance of time can host only one type of media content, either images or videos.      
+**The gallery, at a given instance of time can host only one type of media content, either images or videos.**      
 
-As of now for videos only .mp4 file format is supported and for images .jpeg and .png file formats are supported.
+As of now for videos only **.mp4** file format is supported and for images **.jpeg** and **.png** file formats are supported.
 
 
 
