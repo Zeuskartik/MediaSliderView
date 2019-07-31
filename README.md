@@ -38,12 +38,11 @@ Image Gallery -
 ![vid_ss](https://res.cloudinary.com/kartiksaraf/image/upload/c_scale,w_200/v1564571701/github_MediaSliderView/screenshots/ezgif.com-video-to-gif_wuuney.gif)    
 
 
-Image -   
+Image in gallery -   
 
-![vid_ss](https://res.cloudinary.com/kartiksaraf/image/upload/c_scale,w_200/v1564572325/github_MediaSliderView/screenshots/1564571252993_lb5ajs.jpg)   
+![vid_ss](https://res.cloudinary.com/kartiksaraf/image/upload/c_scale,w_200/v1564572325/github_MediaSliderView/screenshots/1564571252993_lb5ajs.jpg)    
 
-
-Video -   
+Video in gallery -   
 
 ![vid_ss](https://res.cloudinary.com/kartiksaraf/image/upload/c_scale,w_200/v1564571495/github_MediaSliderView/screenshots/1564571252982_phc5wh.jpg) 
 
