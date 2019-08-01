@@ -99,7 +99,7 @@ public class SliderDemo extends MediaSliderActivity {
 }
 ```   
 
-5). Register this new class inside your manifest.xml (since this class extends an activity now).
+5). Register this new class in your manifest.xml file (since this class extends an activity now).
 
 
 6). Override the 'onCreate' method inside this java class.
