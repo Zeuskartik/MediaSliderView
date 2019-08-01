@@ -24,7 +24,7 @@ MediaSliderView is a compact library for having a slideable/swipeable gallery vi
 * Progress indicators for resource load progress.       
 * Title for gallery view.    
 * Navigation buttons on either sides to navigate through the gallery smoothly.    
-* Resource count view(current/total).
+* Item count view(current/total).
 
 
 ## Supported MediaTypes    
