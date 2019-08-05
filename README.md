@@ -21,7 +21,8 @@ MediaSliderView is a compact library for having a slideable/swipeable gallery vi
 * Exoplyer support for playing videos inside the gallery.       
 * Supports Url's as well as local file paths.      
   (Note: android uri's are not supported, only absolute file paths can be used).      
-* Progress indicators for resource load progress.       
+* Progress indicators for resource load progress. 
+* Launch your gallery from a particular position.
 * Title for gallery view.    
 * Navigation buttons on either sides to navigate through the gallery smoothly.    
 * Item count view(current/total).
@@ -128,6 +129,7 @@ The loadMediaSliderView() method takes the following arguemnts-
 | title                | String            |                 | Title of the slider gallery view.                                                                                                                                |
 | titleBackgroundColor | String            | Eg.-"#ffffff"   | Backgroundcolor of the title bar for the gallery. It only accepts hexadecimal color strings.                                                                     |
 | titleTextColor       | String            | Eg.-"#000000"   | Text color of the gallery title. It only accepts hexadecimal color strings.                                                                                      |
+| startPosition       | int            | 0   | Gallery launch position.                                                                                      |
  
  
  Usage-  
@@ -139,7 +141,7 @@ public class SliderDemo extends MediaSliderActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        loadMediaSliderView(list,"image",true,true,false,"Image-Slider","#000000",null); 
+        loadMediaSliderView(list,"image",true,true,false,"Image-Slider","#000000",null,0); 
     }
 }
 ```           
