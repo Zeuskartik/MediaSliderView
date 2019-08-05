@@ -16,6 +16,6 @@ public class ImageSliderDemo extends MediaSliderActivity {
         list.add("https://res.cloudinary.com/kartiksaraf/image/upload/v1564514590/github_MediaSliderView/demo_images/Quotefancy-20588-3840x2160_msurjx.jpg");
         list.add("https://res.cloudinary.com/kartiksaraf/image/upload/v1564514634/github_MediaSliderView/demo_images/Quotefancy-2098-3840x2160_nrez6k.jpg");
         list.add("https://res.cloudinary.com/kartiksaraf/image/upload/v1564514699/github_MediaSliderView/demo_images/download_totbb2.jpg");
-        loadMediaSliderView(list,"image",true,true,false,"Image-Slider","#000000",null);
+        loadMediaSliderView(list,"image",true,true,false,"Image-Slider","#000000",null,0);
     }
 }

@@ -48,6 +48,7 @@ public class MediaSliderActivity extends AppCompatActivity {
     private String mediaType;
     private String titleTextColor;
     private String titleBackgroundColor;
+    private int startPosition = 0;
 
 
     @Override
@@ -56,7 +57,7 @@ public class MediaSliderActivity extends AppCompatActivity {
         setContentView(R.layout.slider);
     }
 
-    public void loadMediaSliderView(ArrayList<String> mediaUrlList, String mediaType, boolean isTitleVisible, boolean isMediaCountVisible, boolean isNavigationVisible, String title, String titleBackgroundColor, String titleTextColor) {
+    public void loadMediaSliderView(ArrayList<String> mediaUrlList, String mediaType, boolean isTitleVisible, boolean isMediaCountVisible, boolean isNavigationVisible, String title, String titleBackgroundColor, String titleTextColor, int startPosition) {
         this.urlList = mediaUrlList;
         this.mediaType = mediaType;
         this.isTitleVisible = isTitleVisible;
@@ -65,7 +66,21 @@ public class MediaSliderActivity extends AppCompatActivity {
         this.title = title;
         this.titleBackgroundColor = titleBackgroundColor;
         this.titleTextColor = titleTextColor;
+        this.startPosition = startPosition;
         initViewsAndSetAdapter();
+    }
+
+    private void setStartPosition() {
+        if (startPosition >= 0) {
+            if (startPosition > urlList.size()) {
+                mPager.setCurrentItem((urlList.size() - 1));
+                return;
+            }
+            mPager.setCurrentItem(startPosition);
+        } else {
+            mPager.setCurrentItem(0);
+        }
+        mPager.setOffscreenPageLimit(0);
     }
 
     private void initViewsAndSetAdapter() {
@@ -77,6 +92,7 @@ public class MediaSliderActivity extends AppCompatActivity {
         mPager = findViewById(R.id.pager);
         PagerAdapter pagerAdapter = new ScreenSlidePagerAdapter(MediaSliderActivity.this, urlList, mediaType);
         mPager.setAdapter(pagerAdapter);
+        setStartPosition();
         String hexRegex = "/^#(?:(?:[\\da-f]{3}){1,2}|(?:[\\da-f]{4}){1,2})$/i";
         if (isTitleVisible || isMediaCountVisible) {
             if (titleBackgroundColor != null && titleBackgroundColor.matches(hexRegex)) {
