@@ -129,7 +129,7 @@ The loadMediaSliderView() method takes the following arguemnts-
 | title                | String            |                 | Title of the slider gallery view.                                                                                                                                |
 | titleBackgroundColor | String            | Eg.-"#ffffff"   | Backgroundcolor of the title bar for the gallery. It only accepts hexadecimal color strings.                                                                     |
 | titleTextColor       | String            | Eg.-"#000000"   | Text color of the gallery title. It only accepts hexadecimal color strings.                                                                                      |
-| startPosition       | int            | Eg.- 0  | Starting index for your gallery's list. If you want to launch gallery from starting, pass 0 in the method.                                                                                      |
+| startPosition       | int            | Eg.- 0  | Starting index for your gallery. If you want to launch gallery from starting, pass 0 in the method.                                                                                      |
  
  
  Usage-  
