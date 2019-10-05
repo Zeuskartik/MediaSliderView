@@ -1,4 +1,4 @@
-[![](https://img.shields.io/jitpack/v/github/Zeuskartik/MediaSliderView?label=JitPack)](https://jitpack.io/#Zeuskartik/MediaSliderView)
+[![](https://jitpack.io/v/Zeuskartik/MediaSliderView.svg)](https://jitpack.io/#Zeuskartik/MediaSliderView)
  [![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-MediaSliderView-green.svg?style=flat )]( https://android-arsenal.com/details/1/7803 )  [![Build status](https://ci.appveyor.com/api/projects/status/9l0ubq1ng77dpm3n?svg=true)](https://ci.appveyor.com/project/Zeuskartik/mediasliderview)  [![Maintainability](https://api.codeclimate.com/v1/badges/ddf05107edffa60b69e7/maintainability)](https://codeclimate.com/github/Zeuskartik/MediaSliderView/maintainability) [![License](https://img.shields.io/badge/License-Apache%202.0-orange.svg)](https://opensource.org/licenses/Apache-2.0)
    ![GitHub top language](https://img.shields.io/github/languages/top/Zeuskartik/MediaSliderView?color=Green&label=Java)     ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Zeuskartik/MediaSliderView?color=Green&label=Code%20Size)
 
