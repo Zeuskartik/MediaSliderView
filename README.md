@@ -71,7 +71,7 @@ Note: Replace Tag with the current version.
 
 ```Gradle
 dependencies {
-   implementation 'com.github.Zeuskartik:MediaSliderView:Tag' //eg.- implementation 'com.github.Zeuskartik:MediaSliderView:1.0'
+   implementation 'com.github.Zeuskartik:MediaSliderView:Tag' //eg.- implementation 'com.github.Zeuskartik:MediaSliderView:1.1'
 }
 
 ```    
