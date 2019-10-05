@@ -209,7 +209,7 @@ public class MediaSliderActivity extends AppCompatActivity {
         PlayerView simpleExoPlayerView;
         MediaSource mediaSource;
         TouchImageView imageView;
-        ProgressBar mProgressBar;
+        //ProgressBar mProgressBar;
 
 
         private ScreenSlidePagerAdapter(Context context, ArrayList<String> urlList, String token) {
@@ -227,18 +227,18 @@ public class MediaSliderActivity extends AppCompatActivity {
             if (token.equalsIgnoreCase("image")) {
                 view = inflater.inflate(R.layout.image_item, container, false);
                 imageView = view.findViewById(R.id.mBigImage);
-                mProgressBar = view.findViewById(R.id.mProgressBar);
+               // mProgressBar = view.findViewById(R.id.mProgressBar);
                 Glide.with(context).load(urlList.get(position)).centerInside().placeholder(context.getResources().getDrawable(R.drawable.images)).listener(new RequestListener<Drawable>() {
                     @Override
                     public boolean onLoadFailed(@Nullable GlideException e, Object model, Target<Drawable> target, boolean isFirstResource) {
-                        mProgressBar.setVisibility(View.GONE);
+                        //mProgressBar.setVisibility(View.GONE);
                         imageView.setImageDrawable(context.getResources().getDrawable(R.drawable.images));
                         return false;
                     }
 
                     @Override
                     public boolean onResourceReady(Drawable resource, Object model, Target<Drawable> target, DataSource dataSource, boolean isFirstResource) {
-                        mProgressBar.setVisibility(View.GONE);
+                        //mProgressBar.setVisibility(View.GONE);
                         return false;
                     }
                 }).into(imageView);
