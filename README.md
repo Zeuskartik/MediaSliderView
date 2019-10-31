@@ -11,7 +11,7 @@ Sliding Gallery View supporting both images and videos, for android applications
 
 ## Capabilities and Functionalities
 
-MediaSliderView is a compact library for having a slideable/swipeable gallery view inside your android application, which supports both images and videos. MediaSliderView uses Glide (https://github.com/bumptech/glide) for images and exoplayer (https://github.com/google/ExoPlayer) for videos, under the hood, to render images and videos inside customviews which are handled by a viewpager to render a swipeable gallery with on demand view creation, updation and destruction. The libraray itself is highly customizable and the images in the gallery support pinch, zoom and panning capabilities and play/pause/restart support for videos.
+MediaSliderView is a compact library for having a slideable/swipeable gallery view inside your android application, which supports both images and videos. MediaSliderView uses Glide (https://github.com/bumptech/glide) for images and exoplayer (https://github.com/google/ExoPlayer) for videos, under the hood, to render images and videos inside custom views which are handled by a viewpager to render a swipeable gallery with on demand view creation, updation and destruction. The library itself is highly customizable and the images in the gallery support pinch, zoom and panning capabilities and play/pause/restart support for videos.
 
 
 ## What's Included ?   
