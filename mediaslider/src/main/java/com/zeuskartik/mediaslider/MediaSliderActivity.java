@@ -80,7 +80,7 @@ public class MediaSliderActivity extends AppCompatActivity {
         } else {
             mPager.setCurrentItem(0);
         }
-        mPager.setOffscreenPageLimit(0);
+        mPager.setOffscreenPageLimit(1);
     }
 
     private void initViewsAndSetAdapter() {
