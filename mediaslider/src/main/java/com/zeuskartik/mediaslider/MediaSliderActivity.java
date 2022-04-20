@@ -201,7 +201,7 @@ public class MediaSliderActivity extends AppCompatActivity {
     }
 
 
-    private class ScreenSlidePagerAdapter extends PagerAdapter {
+    private static class ScreenSlidePagerAdapter extends PagerAdapter {
         private Context context;
         private ArrayList<String> urlList;
         private String token;
