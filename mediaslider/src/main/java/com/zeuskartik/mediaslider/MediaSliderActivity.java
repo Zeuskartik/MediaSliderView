@@ -36,6 +36,8 @@ import com.google.android.exoplayer2.ui.PlayerView;
 import com.google.android.exoplayer2.upstream.DefaultHttpDataSourceFactory;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 
 public class MediaSliderActivity extends AppCompatActivity {
     private ViewPager mPager;
@@ -80,7 +82,7 @@ public class MediaSliderActivity extends AppCompatActivity {
         } else {
             mPager.setCurrentItem(0);
         }
-        mPager.setOffscreenPageLimit(0);
+        mPager.setOffscreenPageLimit(1);
     }
 
     private void initViewsAndSetAdapter() {
@@ -201,7 +203,7 @@ public class MediaSliderActivity extends AppCompatActivity {
     }
 
 
-    private class ScreenSlidePagerAdapter extends PagerAdapter {
+    private static class ScreenSlidePagerAdapter extends PagerAdapter {
         private Context context;
         private ArrayList<String> urlList;
         private String token;
@@ -209,36 +211,44 @@ public class MediaSliderActivity extends AppCompatActivity {
         PlayerView simpleExoPlayerView;
         MediaSource mediaSource;
         TouchImageView imageView;
-        //ProgressBar mProgressBar;
+        List<ProgressBar> progressBars;
 
 
         private ScreenSlidePagerAdapter(Context context, ArrayList<String> urlList, String token) {
             this.context = context;
             this.urlList = urlList;
             this.token = token;
+            progressBars = new LinkedList<>();
 
+        }
+
+        private void hideProgressBar(int position){
+            if (position < progressBars.size()){
+                progressBars.get(position).setVisibility(View.GONE);
+            }
         }
 
         @NonNull
         @Override
-        public Object instantiateItem(@NonNull ViewGroup container, int position) {
+        public Object instantiateItem(@NonNull ViewGroup container, final int position) {
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(context.LAYOUT_INFLATER_SERVICE);
             View view = null;
             if (token.equalsIgnoreCase("image")) {
                 view = inflater.inflate(R.layout.image_item, container, false);
                 imageView = view.findViewById(R.id.mBigImage);
-               // mProgressBar = view.findViewById(R.id.mProgressBar);
+                ProgressBar progressBar = view.findViewById(R.id.mProgressBar);
+                progressBars.add(position, progressBar);
                 Glide.with(context).load(urlList.get(position)).centerInside().placeholder(context.getResources().getDrawable(R.drawable.images)).listener(new RequestListener<Drawable>() {
                     @Override
                     public boolean onLoadFailed(@Nullable GlideException e, Object model, Target<Drawable> target, boolean isFirstResource) {
-                        //mProgressBar.setVisibility(View.GONE);
+                        hideProgressBar(position);
                         imageView.setImageDrawable(context.getResources().getDrawable(R.drawable.images));
                         return false;
                     }
 
                     @Override
                     public boolean onResourceReady(Drawable resource, Object model, Target<Drawable> target, DataSource dataSource, boolean isFirstResource) {
-                        //mProgressBar.setVisibility(View.GONE);
+                        hideProgressBar(position);
                         return false;
                     }
                 }).into(imageView);
